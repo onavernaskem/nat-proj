@@ -1,13 +1,381 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.min.css" />
-    <title>Gulp Setup</title>
-  </head>
-  <body class="page-body">
-    <h1>Success</h1>
-    <script src="js/common.min.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.min.css" />
+  <title>Национальные проекты</title>
+</head>
+
+<body class="page-body">
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ">
+        <span class="navbar-brand" href=""><img src="img/logo.svg" alt=""></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <ul class="nav align-items-center">
+              <li> <a class="nav-item nav-link" href="#projects">Проекты</a></li>
+              <li><a class="nav-item nav-link" href="#types"> Типы объектов</a></li>
+            </ul>
+
+            <button type="button" class="btn btn-primary">На карту</button>
+          </div>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <h1><span> Интерактивная карта </span>
+          Ямало-Ненецкого Автономного Округа
+        </h1>
+        <div class="jumbotron_statistic">
+
+          <div class="row">
+            <div class="col-sm-3">
+              <span>3963</span>
+              объектов
+            </div>
+            <div class="col-sm-3">
+              <span>1096</span>
+              завершено
+            </div>
+          </div>
+        </div>
+
+
+        <button type="button" class="btn btn-primary">На карту</button>
+      </div>
+    </div>
+
+
+  </header>
+  <div class="main">
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 offset-sm-1">
+            <img src="img/portrait.png" class="img-responsive" alt="">
+          </div>
+          <div class="col-sm-6">
+            <div class="about_title">Андрей Сергеевич Никитин</div>
+            <div class="about_subtitle">Губернатор Новгородской области</div>
+            <div class="about_text">
+              <p>Равным образом укрепление и развитие структуры способствует подготовки и реализации системы обучения
+                кадров,
+                соответствует насущным потребностям. С другой стороны рамки и место обучения кадров позволяет выполнять
+                важные
+                задания по разработке систем массового участия. Не следует, однако забывать, что рамки и место обучения
+                кадров
+                требуют определения и уточнения форм развития. Равным образом укрепление и развитие структуры
+                способствует
+                подготовки и реализации модели развития.</p>
+              <p>Равным образом укрепление и развитие структуры способствует подготовки и реализации системы обучения
+                кадров,
+                соответствует насущным потребностям. С другой стороны рамки и место обучения кадров позволяет выполнять
+                важные.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>Проекты</h2>
+
+        <div class="projects_main_stat">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="mkCharts" data-percent="5" data-color="#008562" data-altcolor="#6fb7a1" data-amount="172"
+                data-unit="шт" data-size="250" data-fontsize="6">
+              </div>
+              <div class="projects_title"> Объекты</div>
+              <div class="projects_desc">
+                <div class="row">
+                  <div class="col">
+                    <div class="chart_color" style="background-color: #008562;"></div>
+                    9 шт.
+                    <span>Завершено</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="mkCharts" data-percent="80" data-altcolor="#fead1a" data-color="#e96a17"
+                data-amount="3 904,91" data-unit=" млн. ₽" data-size="250" data-fontsize="4">
+              </div>
+              <div class="projects_title"> Бюджеты 2021 год</div>
+              <div class="projects_desc">
+                <div class="row">
+                  <div class="col">
+                    <div class="chart_color" style="background-color:#e96a17 ;"> </div>
+                    3 064,25 млн. ₽
+                    <span>Региональный</span>
+
+                  </div>
+                  <div class="col">
+                    <div class="chart_color" style="background-color: #fead1a;"></div> 3 904,91 млн. ₽
+                    <span>Федеральный</span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="mkCharts" data-percent="45" data-altcolor="#e91f2b" data-color="#9c0007"
+                data-amount="5 495,21" data-unit=" млн. ₽" data-size="250" data-fontsize="4"></div>
+              <div class="projects_title">
+                Исполнение бюджета
+              </div>
+              <div class="projects_desc">
+                <div class="row">
+                  <div class="col">
+                    <div class="chart_color" style="background-color: #9c0007;"> </div>3 042,52 млн. ₽
+                    <span>Региональный</span>
+
+                  </div>
+                  <div class="col">
+                    <div class="chart_color" style="background-color: #e91f2b;"> </div>
+                    5 495,21 млн. ₽
+                    <span>Федеральный</span>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div> <!-- projects_main_stat - END -->
+
+        <div class="projects_main_list">
+          <div class="projects_main_list-item">
+            <div class="row">
+              <div class="col-sm-1">
+                <img src="img/infrastructure.svg" alt="">
+              </div>
+              <div class="col-sm-6">
+                <div class="title">Очень длинное название национального проекта от двух до трех строчек, а может быть и
+                  больше Очень длинное название национального проекта от двух до трех строчек, а может быть и больше
+                </div>
+                <p>Равным образом укрепление и развитие структуры способствует подготовки и реализации системы обучения
+                  кадров, соответствует насущным потребностям.</p>
+              </div>
+              <div class="col-sm-5">
+                <div class="d-flex align-items-center">
+                  <div class="p-2">
+                    <div class="projects_desc">
+
+                      <div class="chart_color" style="background-color: #17b278;"> </div>
+                      12 568,9 млн. ₽ <span>Региональный</span>
+                    </div>
+
+                    <div class="projects_desc">
+                      <div class="chart_color" style="background-color: #304bef;"></div> 535,3 млн. ₽
+                      <span>Федеральный</span>
+                    </div>
+
+                  </div>
+                  <div class="p-2 ml-auto">
+                    <div class="mkCharts" data-percent="70" data-color="#304bef" data-altcolor="#17b278"
+                      data-amount="10 104,20" data-unit=" млн. ₽" data-size="200" data-fontsize="5">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h4>Объекты, шт. <span>Завершено</span> 5 <span>Всего</span> 12</h4>
+                <div class="d-flex projects_icons">
+                  <div class="p-1" style="background-color: #17b278;">01</div>
+                  <div class="p-1" style="background-color: #17b278;">02</div>
+                  <div class="p-1">03</div>
+                  <div class="p-1">04</div>
+                  <div class="p-1">05</div>
+                  <div class="p-1">06</div>
+                  <div class="p-1">07</div>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+
+                <div class="accordion projects_region_objects">
+                  <h4 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">Региональные проекты</h4>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="number">01</div>
+                          <div class="card-text">Равным образом укрепление и развитие структуры способствует подготовки
+                            и
+                            реализации
+
+                            <div class="statistic"><span>Общий бюджет 2021-го</span>
+                              3 500 млн. ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="number">02</div>
+                          <div class="card-text">Равным образом укрепление и развитие структуры способствует подготовки
+                            и
+                            реализации
+
+                            <div class="statistic"><span>Общий бюджет 2021-го</span>
+                              3 500 млн. ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="number">03</div>
+                          <div class="card-text">Равным образом укрепление и развитие структуры способствует подготовки
+                            и
+                            реализации
+
+                            <div class="statistic"><span>Общий бюджет 2021-го</span>
+                              3 500 млн. ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="number">04</div>
+                          <div class="card-text">Равным образом укрепление и развитие структуры способствует подготовки
+                            и
+                            реализации
+
+                            <div class="statistic"><span>Общий бюджет 2021-го</span>
+                              3 500 млн. ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="number">05</div>
+                          <div class="card-text">Равным образом укрепление и развитие структуры способствует подготовки
+                            и
+                            реализации
+
+                            <div class="statistic"><span>Общий бюджет 2021-го</span>
+                              3 500 млн. ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="number">06</div>
+                          <div class="card-text">Равным образом укрепление и развитие структуры способствует подготовки
+                            и
+                            реализации
+
+                            <div class="statistic"><span>Общий бюджет 2021-го</span>
+                              3 500 млн. ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                  </div>
+                </div> <!-- accordion - END -->
+
+              </div>
+            </div>
+
+          </div> <!-- projects_main_list-item - END -->
+        </div> <!-- projects_main_list - END -->
+
+      </div>
+    </section>
+
+    <section class="types" id="types">
+      <div class="container">
+        <h2>Типы объектов</h2>
+        <div class="row">
+          <div class="col-md-4">
+            Автомобильные
+            дороги
+          </div>
+          <div class="col-md-4">
+            Строительство многоквартирных жилых домов
+          </div>
+          <div class="col-md-4">
+            Расселение ветхого фонда
+          </div>
+          <div class="col-md-4">
+            Объекты культурного наследия
+          </div>
+        </div>
+
+
+
+
+        Капитальный ремонт многоквартирных жилых домов
+        Городские пространства
+        Медицинские организации
+        Образовательные организации
+        Строительство и ремонт объектов культуры
+        Спортивные объекты
+        Объекты инженерной инфраструктуры
+        Объекты экологии
+        Военно-мемориальный объект
+        Учреждения культуры
+        Инвестиционная инфраструктура
+
+        Открыть карту
+      </div>
+
+    </section>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="d-flex ">
+        <div class="p-2">© Copyright</div>
+        <div class="p-2 ml-auto">2021 г.</div>
+      </div>
+
+
+    </div>
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="charts/css/mk_charts.css" />
+  <script src="charts/js/mk_charts.js"></script>
+  <script src="js/common.min.js"></script>
+</body>
+
 </html>

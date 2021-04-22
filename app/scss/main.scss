@@ -22,6 +22,7 @@ body {
   color: black;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
   input,
   textarea {
     border: #666 1px solid;
@@ -49,11 +50,23 @@ body {
 .text-center {
   text-align: center;
 }
+h1,
+h2,
+h3 {
+  font-family: "BebasNeue";
+}
 
+h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
 b,
 strong {
-  font-weight: bold;
-  font-family: Arial, sans-serif;
 }
 
 .visually-hidden {
@@ -77,5 +90,21 @@ strong {
   flex-shrink: 0;
 }
 
+.btn {
+  background: #ef3b4c;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #fafafa;
+  letter-spacing: 0.5px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 18px 60px;
+}
+
 @import "./_components/header";
 @import "./_components/footer";
+@import "./_components/about";
+@import "./_components/nav";
+@import "./_components/projects";
