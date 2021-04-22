@@ -1,0 +1,134 @@
+.types {
+  background: #fafafa;
+  padding-bottom: 100px;
+  padding-top: 200px;
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  margin-bottom: -100px;
+  @media (max-width: 800px) {
+    -webkit-clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0% 100%);
+    padding-top: 70px;
+  }
+  &_list {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 140%;
+    &-item {
+      margin-bottom: 60px;
+    }
+    .icon {
+      display: block;
+      width: 65px;
+      height: 85px;
+      background: url(../img/icons/icon_point.svg) no-repeat;
+      background-size: contain;
+      margin: 10px auto;
+      position: relative;
+      &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        display: block;
+      }
+      &.dor {
+        &::before {
+          background: url(../img/icons/icon4.svg) 50% 30% no-repeat;
+        }
+      }
+      &.zhil {
+        &::before {
+          background: url(../img/icons/icon3.svg) 50% 30% no-repeat;
+        }
+      }
+      &.rassel {
+        &::before {
+          background: url(../img/icons/icon1.svg) 50% 30% no-repeat;
+        }
+      }
+      &.kult {
+        &::before {
+          background: url(../img/icons/icon2.svg) 50% 30% no-repeat;
+        }
+      }
+      &.kaprem {
+        &::before {
+          background: url(../img/icons/icon5.svg) 50% 30% no-repeat;
+        }
+      }
+      &.gor {
+        &::before {
+          background: url(../img/icons/icon6.svg) 50% 30% no-repeat;
+        }
+      }
+      &.med {
+        &::before {
+          background: url(../img/icons/icon7.svg) 50% 30% no-repeat;
+        }
+      }
+      &.obraz {
+        &::before {
+          background: url(../img/icons/icon8.svg) 50% 30% no-repeat;
+        }
+      }
+      &.stroi {
+        &::before {
+          background: url(../img/icons/icon9.svg) 50% 30% no-repeat;
+        }
+      }
+      &.sport {
+        &::before {
+          background: url(../img/icons/icon10.svg) 50% 30% no-repeat;
+        }
+      }
+      &.inzh {
+        &::before {
+          background: url(../img/icons/icon11.svg) 50% 30% no-repeat;
+        }
+      }
+      &.ecol {
+        &::before {
+          background: url(../img/icons/icon12.svg) 50% 30% no-repeat;
+        }
+      }
+      &.voen {
+        &::before {
+          background: url(../img/icons/icon13.svg) 50% 30% no-repeat;
+        }
+      }
+      &.kultur {
+        &::before {
+          background: url(../img/icons/icon14.svg) 50% 30% no-repeat;
+        }
+      }
+      &.invest {
+        &::before {
+          background: url(../img/icons/icon15.svg) 50% 30% no-repeat;
+        }
+      }
+    }
+  }
+}
+
+.btn-more {
+  display: flex;
+  width: 188px;
+  height: 130px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #271d70;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  background: url(../img/bg-button.svg) 50% 50% no-repeat;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    text-decoration: none;
+    color: darken(#271d70, 15);
+  }
+}

@@ -3,12 +3,15 @@
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
-  //   line-height: 100vh;
   height: 100vh;
   max-height: 800px;
   text-align: center;
   color: #fff;
   position: relative;
+  @media (max-width: 800px) {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+  }
   &:before {
     content: "";
     width: 100%;

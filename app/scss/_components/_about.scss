@@ -6,6 +6,13 @@
   padding-bottom: 250px;
   -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 84%);
   clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 84%);
+  @media (max-width: 800px) {
+    -webkit-clip-path: polygon(0 2%, 100% 0%, 100% 100%, 0% 94%);
+    clip-path: polygon(0 2%, 100% 0%, 100% 100%, 0% 94%);
+    padding-bottom: 60px;
+    padding-top: 100px;
+    margin-top: -60px;
+  }
   .container {
     background: url(../img/border.svg) no-repeat;
     background-size: 100% auto;
@@ -30,5 +37,8 @@
   &_text {
     margin-top: 40px;
     padding-right: 30px;
+  }
+  img {
+    margin-bottom: 30px;
   }
 }
