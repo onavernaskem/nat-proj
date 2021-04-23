@@ -1,11 +1,14 @@
 .nav {
   font-size: 22px;
   line-height: 26px;
+  font-weight: normal;
+  transition: all 0.2s ease;
   li {
     padding: 0 20px;
   }
   a {
     color: #fff !important;
+    font-weight: 300;
   }
 }
 .navbar-nav {
@@ -13,5 +16,16 @@
     font-size: 16px;
     line-height: 19px;
     padding: 16px 45px;
+  }
+}
+
+.sticky {
+  transition: all 0.3s ease;
+  .nav {
+    li {
+      a {
+        color: #060a22 !important;
+      }
+    }
   }
 }

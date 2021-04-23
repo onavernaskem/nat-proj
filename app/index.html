@@ -15,8 +15,8 @@
 
 <body class="page-body">
   <header class="header" style="background-image: url(img/novgorod.png);">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
         <span class="navbar-brand" href=""><img src="img/logo.svg" alt=""></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,10 +33,14 @@
             <button type="button" class="btn btn-primary">На карту</button>
           </div>
         </div>
-      </nav>
+      </div>
+
+    </nav>
+    <div class="container">
+
       <div class="jumbotron">
         <h1><span> Интерактивная карта </span>
-          Новгородской области
+          Новгородской <br> области
         </h1>
         <div class="jumbotron_statistic">
 
@@ -56,35 +60,27 @@
         <button type="button" class="btn btn-primary">На карту</button>
       </div>
     </div>
-
-
   </header>
   <div class="main">
 
     <section class="about" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-sm-5 offset-sm-1">
+          <div class="col-sm-4 offset-sm-1">
             <img src="img/belokrylova.png" class="img-responsive" alt="">
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <div class="about_title">Белокрылова Оксана</div>
             <div class="about_subtitle">Заместитель министра - Директор департамента проектного управления
               министерства инвестиционной политики Новгородской области</div>
             <div class="about_text">
-              <p>Равным образом укрепление и развитие структуры способствует подготовки и реализации системы обучения
-                кадров,
-                соответствует насущным потребностям. С другой стороны рамки и место обучения кадров позволяет выполнять
-                важные
-                задания по разработке систем массового участия. Не следует, однако забывать, что рамки и место обучения
-                кадров
-                требуют определения и уточнения форм развития. Равным образом укрепление и развитие структуры
-                способствует
-                подготовки и реализации модели развития.</p>
-              <p>Равным образом укрепление и развитие структуры способствует подготовки и реализации системы обучения
-                кадров,
-                соответствует насущным потребностям. С другой стороны рамки и место обучения кадров позволяет выполнять
-                важные.</p>
+              <p>Приветствуем вас, на новом портале "Интерактивная карта Новгородской области". На портале можно
+                отследить, как реализуются национальные проекты, программы социально-экономического развития
+                федерального, регионального, муниципального уровней на территории области. На "Интерактивной карте"
+                представлена информация о строительстве и ремонте дорог, больниц, инженерных сетей. Видно, как
+                возводятся социальные объекты, расселяются аварийные дома, благоустраиваются парки и скверы, дворовые
+                территории и другие объекты.
+                Региональный проектный офис Новгородской области</p>
             </div>
           </div>
         </div>
@@ -112,11 +108,15 @@
                     9 шт.
                     <span>Завершено</span>
                   </div>
+                  <div class="col">
+                    <div class="chart_color" style="background-color: #6fb7a1;"></div> 172 шт.
+                    <span>Всего</span>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="mkCharts" data-percent="80" data-altcolor="#fead1a" data-color="#e96a17"
+              <div class="mkCharts" data-percent="44" data-altcolor="#fead1a" data-color="#e96a17"
                 data-amount="6 969,16" data-unit=" млн. ₽" data-size="250" data-fontsize="4">
               </div>
               <div class="projects_title"> Бюджеты 2021 год</div>
@@ -1336,7 +1336,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="charts/css/mk_charts.css" />
   <script src="charts/js/mk_charts.js"></script>
-  <script src="js/common.min.js"></script>
+  <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
