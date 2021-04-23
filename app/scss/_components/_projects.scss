@@ -31,7 +31,7 @@
   &-item {
     border-top: 1px dashed #ccc;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     .title {
       font-family: "BebasNeue";
       text-transform: uppercase;
@@ -45,32 +45,44 @@
         opacity: 0.5;
         font-weight: normal;
         display: inline-block;
-        margin-left: 30px;
       }
+      .num {
+        margin-left: 30px;
+        opacity: 1;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 140%;
+        color: #3e66f3;
+      }
+    }
+    img {
+      max-width: 100%;
     }
   }
 }
 .projects_region_objects {
   margin: 30px 0 0;
-
   .card {
     background: #ffffff;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
     border-radius: 14px;
     padding: 18px 12px;
     margin: 15px 0;
-
+    min-height: 170px;
     flex-direction: row;
     .number {
-      width: 15%;
+      width: 14%;
       color: #ef3b4c;
       font-weight: bold;
       font-size: 25px;
       line-height: 1;
     }
     &-text {
-      font-size: 16px;
-      width: 85%;
+      font-size: 15px;
+      width: 86%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       .statistic {
         margin-top: 10px;
         opacity: 0.8;

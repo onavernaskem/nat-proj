@@ -115,17 +115,20 @@
 
 .btn-more {
   display: flex;
-  width: 188px;
-  height: 130px;
-  text-align: center;
+  width: 180px;
+  height: 120px;
+  text-align: right;
   text-transform: uppercase;
   color: #271d70;
-  font-weight: bold;
+  // font-weight: bold;
   font-size: 16px;
   line-height: 140%;
   background: url(../img/bg-button.svg) 50% 50% no-repeat;
-  align-items: center;
-  justify-content: center;
+  background-size: contain;
+  // align-items: center;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 10px;
 
   &:hover {
     text-decoration: none;
