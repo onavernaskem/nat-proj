@@ -120,16 +120,14 @@
   text-align: right;
   text-transform: uppercase;
   color: #271d70;
-  // font-weight: bold;
   font-size: 16px;
   line-height: 140%;
   background: url(../img/bg-button.svg) 50% 50% no-repeat;
   background-size: contain;
-  // align-items: center;
   justify-content: flex-end;
   padding-top: 20px;
   padding-right: 10px;
-
+  cursor: pointer;
   &:hover {
     text-decoration: none;
     color: darken(#271d70, 15);

@@ -11,7 +11,6 @@
 html {
   font-size: 14px;
   scroll-behavior: smooth;
-  scroll-margin-top: 150px;
 }
 html,
 body {
@@ -104,6 +103,7 @@ strong {
   font-size: 20px;
   line-height: 23px;
   padding: 18px 60px;
+  cursor: pointer;
   &:hover {
     background: darken(#ef3b4c, 20);
   }
