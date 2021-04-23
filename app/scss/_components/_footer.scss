@@ -1,8 +1,29 @@
 .footer {
   background: #7b7b7b;
   color: #fff;
-  padding: 60px 0 30px;
+  padding: 100px 0 30px;
   margin-top: 40px;
-  -webkit-clip-path: polygon(0 0%, 100% 50%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 0%, 100% 50%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0%, 100% 30%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 30%, 100% 100%, 0% 100%);
+}
+.partners {
+  width: 75%;
+  align-items: flex-start;
+  justify-content: space-between;
+  img {
+    height: auto;
+    width: auto;
+  }
+}
+.social {
+  margin-left: auto;
+  margin-bottom: 30px;
+  img {
+    margin: 0 10px;
+  }
+  a {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
