@@ -1,0 +1,94 @@
+@import "../vars";
+
+.progress_block {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  .item {
+    margin-bottom: 40px;
+    .progress_block-title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+    .progress_line {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      .start {
+        font-size: 16px;
+        line-height: 19px;
+        color: #838490;
+
+        span {
+          font-size: 24px;
+        }
+        b {
+          position: absolute;
+          top: 30px;
+          left: 0;
+          height: 4px;
+          width: 100%;
+          display: block;
+          &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 4px;
+            background: #2a58fb;
+            border-radius: 5px;
+            position: absolute;
+            top: 0px;
+            left: 0;
+          }
+        }
+      }
+      .end {
+        font-size: 16px;
+        line-height: 19px;
+        color: #000;
+        position: relative;
+        span {
+          font-size: 24px;
+        }
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background: #2a58fb;
+        opacity: 0.2;
+        border-radius: 5px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+      }
+    }
+    &.red {
+      .progress_line:after {
+        background: $red;
+      }
+      .start b:after {
+        background: $red;
+      }
+    }
+    &.green {
+      .progress_line:after {
+        background: $green;
+      }
+      .start b:after {
+        background: $green;
+      }
+    }
+    &.yellow {
+      .progress_line:after {
+        background: $yellow;
+      }
+      .start b:after {
+        background: $yellow;
+      }
+    }
+  }
+}

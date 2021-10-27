@@ -1,0 +1,16 @@
+.tags_list {
+  display: flex;
+  a {
+    border: 1px solid rgba(#000000, 0.2);
+    padding: 9px 25px;
+    color: #838490;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    &.active {
+      background: #3e66f3;
+      color: #fff;
+      border-color: #3e66f3;
+    }
+  }
+}

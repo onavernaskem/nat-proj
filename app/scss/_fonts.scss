@@ -1,6 +1,0 @@
-@import "_mixins/font-face";
-
-@include font-face("BebasNeue", "../fonts/BebasNeue/BebasNeueRegular");
-@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular");
-@include font-face("Roboto", "../fonts/Roboto/Roboto-Bold", 600);
-@include font-face("Roboto", "../fonts/Roboto/Roboto-Light", 300);

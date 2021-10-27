@@ -1,0 +1,70 @@
+.btn-in-map {
+  background: #ef3b4c;
+  border-radius: 3px;
+  width: 174px;
+  height: 40px;
+  padding: 0 45px !important;
+  line-height: 1 !important;
+  text-transform: uppercase;
+}
+.load_more {
+  color: #3e66f3;
+  text-decoration: underline;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.download {
+  font-size: 0;
+  display: block;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(#3e66f3, 0.3);
+  box-sizing: border-box;
+  border-radius: 100px;
+  background: url(../img/icons/download.svg) no-repeat 50% 50%;
+  background-size: 15px;
+  &:hover {
+    border: 1px solid rgba(#3e66f3, 1);
+  }
+}
+.btn-danger {
+  background: #ef3b4c;
+  border-radius: 3px;
+  width: 174px;
+  height: 50px;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.link_map {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background: #3e66f3 url(../img/icons/icon_map-w.svg) 50% 50% no-repeat;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.back_link {
+  position: relative;
+  display: block;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 25px;
+  &:before {
+    content: "";
+    background: url(../img/arrow-b.svg) 50% 0 no-repeat;
+    background-size: contain;
+    top: 5px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    transform: rotate(90deg);
+    position: absolute;
+    display: inline-block;
+  }
+}

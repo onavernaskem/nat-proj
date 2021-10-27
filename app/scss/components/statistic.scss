@@ -1,0 +1,66 @@
+.statistic {
+  //   display: flex;
+  margin-top: 50px;
+  .item {
+    background: #f8f8f8;
+    border-radius: 5px;
+    padding: 50px 30px 30px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 20px;
+    .big {
+      font-weight: bold;
+      font-size: 80px;
+      line-height: 1.2;
+      color: #3e66f3;
+      margin-bottom: 50px;
+      position: relative;
+      z-index: 2;
+      @media screen and (max-width: 480px) {
+        font-size: 42px;
+      }
+      span {
+        display: block;
+        font-size: 16px;
+        color: #000;
+      }
+    }
+    .percent {
+      font-size: 40px;
+      line-height: 32px;
+      font-weight: bold;
+      position: relative;
+      z-index: 2;
+      span {
+        color: #9b9da7;
+        display: block;
+        font-size: 16px;
+      }
+    }
+    &:hover {
+      color: #fff;
+      background: #3e66f3 url(../img/bg-pattern.svg);
+      background-size: auto 100%;
+      &::before {
+        content: "";
+        background: #3e66f3;
+        opacity: 0.5;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      .big,
+      .percent {
+        color: #fff;
+        span {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

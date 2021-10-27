@@ -1,0 +1,28 @@
+.person {
+  margin-bottom: 10px;
+  .work {
+    font-size: 16px;
+    line-height: 140%;
+    display: block;
+    color: #000000;
+    opacity: 0.5;
+  }
+  img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    margin-right: 20px;
+    background: #f0f0f0;
+  }
+  div.img {
+    width: 125px;
+    flex-basis: 125px;
+  }
+  div.name {
+    font-size: 18px;
+    width: calc(100% - 125px);
+    flex-basis: calc(100% - 125px);
+  }
+}
