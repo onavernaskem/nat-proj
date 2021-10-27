@@ -1,0 +1,28 @@
+.docs_list {
+  margin-top: 30px;
+  .item {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed rgba(#000000, 0.2);
+    p {
+      color: #838490;
+    }
+    &:last-child {
+      border: none;
+    }
+  }
+
+  p.docs_title {
+    font-weight: bold;
+    color: #000000;
+  }
+  p.docs_cat {
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 16px;
+    color: #838490;
+    span {
+      margin-right: 10px;
+    }
+  }
+}

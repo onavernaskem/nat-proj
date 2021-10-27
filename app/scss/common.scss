@@ -1,0 +1,51 @@
+@import "vars";
+
+::placeholder {
+  color: #666;
+}
+
+::selection {
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+}
+.mt_0 {
+  margin-top: 0 !important;
+}
+.mt_20 {
+  margin-top: 20px;
+}
+.mt_30 {
+  margin-top: 30px;
+}
+.ml_20 {
+  margin-left: 20px;
+  @media (max-width: 480px) {
+    margin-left: 0;
+  }
+}
+.mr_20 {
+  margin-right: 20px;
+  @media (max-width: 480px) {
+    margin-right: 0;
+  }
+}
+
+.red {
+  color: $red;
+}
+.blue {
+  color: $blue;
+}
+.yellow {
+  color: $yellow;
+}
+.green {
+  color: $green;
+}
