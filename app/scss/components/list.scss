@@ -7,7 +7,6 @@
     margin-top: 30px;
   }
   .item {
-    // margin-left: 10px;
     padding-bottom: 25px;
     padding-top: 25px;
     border-bottom: 1px dashed rgba(#000000, 0.2);
@@ -48,15 +47,6 @@
       li:not(:last-child) {
         margin-bottom: 10px;
       }
-    }
-
-    .comm {
-      margin-left: 20px;
-      font-size: 14px;
-      line-height: 16px;
-      color: #838490;
-      padding-left: 20px;
-      background: url(../img/icons/icon_comment.svg) no-repeat;
     }
   }
 }

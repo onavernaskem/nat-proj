@@ -68,6 +68,7 @@
       }
       .name_proj {
         display: flex;
+        align-items: center;
         @media (max-width: 480px) {
           flex-direction: column;
         }
@@ -75,6 +76,7 @@
           font-weight: bold;
           font-size: 28px;
           line-height: 140%;
+          margin-bottom: 0;
           .status {
             font-weight: normal;
             font-size: 14px;
@@ -128,7 +130,7 @@
         padding-right: 20px;
       }
       &:not(:last-child) {
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         border-bottom: 1px dashed rgba(#000000, 0.2);
       }
       .reports_list-group--head {
@@ -212,7 +214,7 @@
   }
 
   .item:not(:last-child) {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed rgba(#000000, 0.2);
   }
 }
