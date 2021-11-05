@@ -12,25 +12,6 @@
       font-size: 28px;
       line-height: 140%;
     }
-    .choice_category,
-    .choice_date {
-      height: 42px;
-      border: none;
-      color: #838490;
-      border-bottom: 1px solid rgba(#060a22, 0.2);
-      border-radius: 0;
-      padding-left: 0;
-      font-size: 16px;
-      line-height: 19px;
-      width: 200px;
-      @media (max-width: 480px) {
-        width: 100%;
-      }
-    }
-    .choice_date {
-      background: url(../img/icons/icon_calendar.svg) no-repeat 100% 50%;
-      background-size: 12px;
-    }
   }
 
   &-group {

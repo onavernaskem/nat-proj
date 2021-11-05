@@ -78,3 +78,13 @@
   padding-left: 20px;
   background: url(../img/icons/icon_comment.svg) no-repeat;
 }
+.pdf {
+  display: flex;
+  align-items: center;
+  background: url(../img/icons/icon_pdf.svg) 0 50% no-repeat;
+  padding-left: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  height: 40px;
+}

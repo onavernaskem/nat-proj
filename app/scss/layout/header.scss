@@ -22,7 +22,7 @@
     background: linear-gradient(
       180deg,
       #000000 -96.37%,
-      rgba(0, 0, 0, 0.6) 100%
+      rgba(0, 0, 0, 0.4) 100%
     );
     position: absolute;
     top: 0;
@@ -59,6 +59,10 @@
     line-height: 54px;
     text-transform: uppercase;
     text-align: left;
+    span {
+      display: block;
+      font-size: 40px;
+    }
   }
   .select {
     color: #fff;
@@ -76,7 +80,7 @@
   background: none;
   border-radius: 0;
   text-align: left;
-  padding: 150px 0 0 0;
+  padding: 100px 0 0 0;
   @media (max-width: 800px) {
     padding-top: 100px;
   }
@@ -84,6 +88,7 @@
     font-weight: bold;
     font-size: 72px;
     line-height: 1.2;
+    margin-bottom: 70px;
     @media (max-width: 800px) {
       font-size: 36px;
     }
@@ -202,6 +207,40 @@
       background: #ffffff !important;
       opacity: 1;
       margin: auto;
+    }
+  }
+  .person_card {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(25px);
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 150%;
+    .img {
+      img {
+        border-radius: 100%;
+      }
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+    .name {
+      font-family: BebasNeue;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 43px;
+      text-transform: uppercase;
+      .work {
+        display: block;
+        color: #ffffff;
+        font-family: Roboto;
+        opacity: 0.6;
+        font-size: 14px;
+        line-height: 140%;
+        font-weight: normal;
+        text-transform: none;
+      }
     }
   }
 }
